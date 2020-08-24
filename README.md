@@ -1,2 +1,2 @@
-# Algorithm-and-data-structures
+# Algorithm-and-data-structuers
 Algorithm ID1020
