@@ -1,6 +1,23 @@
+/**
+ *  Author          : Mohamed Shakra
+ *  Generation Date : 31-08-2020
+ *  Circular_list : it has the following methods.
+ *  Methods : Add_last to add after the last element.
+ *            Add_first to add before the first element
+ *            Remove_first : remove the first element
+ *            Remove_last  : remove the last element
+ *            print : printing the array after each insert/remove. t.ex. [1,2,3,45] 
+ *  constrains : it takes a fixed length of input, because of using an array.
+ *  input : circular_list<Integer> cl = new circular_list<Integer>();
+ *       cl.add_first(1);
+ *       cl.add_first(2);
+ *  output: [2,1]
+ *  Time O(n)
+ *  memory O(n)
+*/
+
+
 public class circular_list<Item> {
-
-
     int size;
 
     public circular_list(){

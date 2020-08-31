@@ -1,3 +1,27 @@
+/**
+ *  Author          : Mohamed Shakra
+ *  Generation Date : 31-08-2020
+ *  Circular_list : it has the following methods.
+ *  Methods : Add: add before the first
+ *            remove: remove the chosen element
+ *            add_prev: add prev the element
+ *            add_next: add next to the element
+ *            ascending: 
+ *            print : printing the array after each insert/remove. t.ex. [1,2,3,45] 
+
+ *  input : queue<Integer> fi = new queue<Integer>();
+        fi.add(11);
+        fi.add(13);
+        output: [13,11]
+        queue<Integer> asc = new queue<Integer>();
+
+         asc.ascending(12);
+        asc.ascending(13);
+ *  output: [12,13]
+ *  Time O(n)
+ *  memory O(n)
+*/
+
 public class queue<Item> {
     int size;
 

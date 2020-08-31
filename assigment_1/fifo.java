@@ -1,3 +1,21 @@
+/**
+ *  Author          : Mohamed Shakra
+ *  Generation Date : 31-08-2020
+ *  fifo : it has the following methods.
+ *  Methods : 
+ *            add: to add before the first element
+ *            Remove_last  : remove the first that been put at first element
+ *            print : printing the array after each insert/remove. t.ex. [1,2,3,45] 
+ *  constrains : it takes a fixed length of input, because of using an array.
+ *  input : circular_list<Integer> cl = new circular_list<Integer>();
+ *      fi.add(12);
+        fi.add(13);
+ *  output: [13,12]
+ *  Time O(n)
+ *  memory O(n)
+*/
+
+
 import java.util.Iterator;
 
 public class fifo<Item> {
