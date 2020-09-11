@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - parentheses",
+            "request": "launch",
+            "mainClass": "parentheses",
+            "projectName": "Algorithm_data_structure_a93710c7"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - queue",
             "request": "launch",
             "mainClass": "queue",

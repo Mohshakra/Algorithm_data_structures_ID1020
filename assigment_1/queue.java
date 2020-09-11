@@ -119,7 +119,7 @@ public class queue<Item> {
         size++;
     }
 
-    public void ascending(Item item){
+    public void ascending(Item item){    //add in ascending order from left or right of the first elemeent in case of 1 node , in case of 2 or more it takes a trip on the list and place the item in right position. 
         Node rm = new Node();
 
         rm = first;
@@ -185,13 +185,15 @@ public class queue<Item> {
         fi.add(13);
         fi.add(14);
         fi.add(9);
-        fi.remove(1);
+        //fi.remove(1);
 
         queue<Integer> asc = new queue<Integer>();
       
 
-        asc.ascending(12);
-        asc.ascending(13);
+        //asc.ascending(12);
+        //asc.ascending(13);
+        //asc.ascending(10);
+        //asc.ascending(15);
 
 
 

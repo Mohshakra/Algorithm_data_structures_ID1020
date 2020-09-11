@@ -5,7 +5,7 @@
  *  constrains : it takes a fixed length of input, because of using an array.
  *  input : asdfajnqewr
  *  output: rweqnjafdsa
- *  Time O(n)
+ *  Time O(n^2)/ O(n)
  *  memory O(n)
 */
 
