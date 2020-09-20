@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - StdOut",
+            "request": "launch",
+            "mainClass": "upp_6.StdOut",
+            "projectName": "Algorithm_data_structure_a93710c7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MergeX",
+            "request": "launch",
+            "mainClass": "upp_6.MergeX",
+            "projectName": "Algorithm_data_structure_a93710c7"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - insertion",
             "request": "launch",
             "mainClass": "insertion",
