@@ -20,7 +20,15 @@
  *  all bad bed bug dad ... yes yet zoo    [ one string per line ]
  *  
  *************************************************************************/
-
+/**
+ *  Author          : Mohamed Shakra
+ *  Generation Date : 20-09-2020
+ *  Insertion : it has the following methods.
+ *  input : Merge.java < text.txt
+ *  output: sorted text in ascending order 
+ *  Time worst case : o(nlogn) _ Best case : O(nlogn)
+ *  memory O(n)
+*/
 public class Merge {
 
     // stably merge a[lo .. mid] with a[mid+1 .. hi] using aux[lo .. hi]

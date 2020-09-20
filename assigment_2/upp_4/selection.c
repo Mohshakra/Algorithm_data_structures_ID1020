@@ -1,3 +1,15 @@
+/**
+ *  Author          : Mohamed Shakra
+ *  Generation Date : 20-09-2020
+ *  selection : it has the following methods.
+ *  Methods : print_array.
+ *  
+ *  constrains : it takes a fixed length of input, because of using an array.
+ *  input : 64, 25, -1, -4, -11 , 21 ,-1
+ *  output: -1 -4 -11 -1 25 64 21 
+ *  Time worst case : o(n^2) _ Best case : O(n^2)
+ *  memory O(1)
+*/
 #include <stdio.h> 
 void swap(int *xp, int *yp) 
 { 

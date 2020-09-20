@@ -1,3 +1,17 @@
+/**
+ *  Author          : Mohamed Shakra
+ *  Generation Date : 20-09-2020
+ *  insertion : it has the following methods.
+ *  Methods : arrange: to arrange the array in ascending order
+ *            Invcount : to list all the inversions
+ *            print    ; to print after each input
+ *  
+ *  constrains : it takes a fixed length of input, because of using an array.
+ *  input : 3 4 1 4 5
+ *  output: [2,1]
+ *  Time worst case : o(n^2) _ Best case : O(n)
+ *  memory O(1)
+*/
 import java.util.Scanner;
 public class insertion {
     

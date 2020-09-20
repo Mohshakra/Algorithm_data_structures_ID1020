@@ -20,6 +20,15 @@
  *  all bad bed bug dad ... yes yet zoo   [ one string per line ]
  *
  *************************************************************************/
+/**
+ *  Author          : Mohamed Shakra
+ *  Generation Date : 20-09-2020
+ *  Insertion : it has the following methods.
+ *  input : insertion < text.txt
+ *  output: sorted text in ascending order 
+ *  Time worst case : o(n^2) _ Best case : O(n)
+ *  memory O(1)
+*/
 
 import java.util.Comparator;
 

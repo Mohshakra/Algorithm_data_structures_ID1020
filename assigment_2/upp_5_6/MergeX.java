@@ -20,7 +20,15 @@
  *  all bad bed bug dad ... yes yet zoo    [ one string per line ]
  *  
  *************************************************************************/
-
+/**
+ *  Author          : Mohamed Shakra
+ *  Generation Date : 20-09-2020
+ *  Insertion : it has the following methods.
+ *  input : MergeX.java < text.txt
+ *  output: sorted text in ascending order 
+ *  Time worst case : o(nlogn) _ Best case : O(nlogn)
+ *  memory O(n)
+*/
 
 
 import java.util.Comparator;
