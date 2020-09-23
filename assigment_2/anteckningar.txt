@@ -1,0 +1,11 @@
+1- Insertionsort: Den delar upp array i två delar sorter och sorted. Den jämför talen två och två tills den har sorterat hela arrayn. 
+
+2 - Swaps 
+
+3 - inversion
+
+4 - Selection : den hittar minsta värde i array och flytta det till första plats och flyttar pekaren ett steg framåt.
+
+5 - Merge
+
+6 - Mergex

@@ -24,15 +24,15 @@ public class insertion {
             int key = arr[i]; 
             int j = i - 1; 
             
-            /* Move elements of arr[0..i-1], that are 
-               greater than key, to one position ahead 
-               of their current position */
+           // Jämför elementen två och två
             while (j >= 0 && arr[j] > key) { 
                 arr[j + 1] = arr[j]; 
                 j = j - 1;
                 swaps++; 
+                // adderar antal swaps
 
             } 
+            // forsätter pekaren till nästa element
             arr[j + 1] = key; 
             print(arr);
 
@@ -43,6 +43,7 @@ public class insertion {
     }
     static int getInvCount(int arr[]) 
     {   
+        // när första element är större and andra det räknas en inversion.
         int n = arr.length;
         int inv_count = 0; 
         for (int i = 0; i < n - 1; i++) 
@@ -54,11 +55,8 @@ public class insertion {
         return inv_count; 
     } 
   
-    // Driver method to test the above function 
 
      
-
-    
     
     public static void print(int numbers []){
         for(int i = 0 ; i < numbers.length; i++)
