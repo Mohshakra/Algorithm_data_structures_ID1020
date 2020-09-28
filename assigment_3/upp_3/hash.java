@@ -118,6 +118,7 @@ public class hash {
          */
         private void resize(int chains) {
             SeparateChainingHashST<Key, Value> temp = new SeparateChainingHashST<Key, Value>(chains); //create a temp table
+            System.out.println("The value of M" + M); 
             for (int i = 0; i < M; i++) {            //copie all hashCodes
                 for (Key key : st[i].keys()) {       //copie all linked lists
                     temp.put(key, st[i].get(key));
@@ -162,6 +163,7 @@ public class hash {
          */
         public void printTable() {
             for (int i = 0; i < M; i++) {
+                
                 System.out.print(i + ".");
                 st[i].printST();
                 System.out.println();
@@ -195,5 +197,6 @@ public class hash {
          * (each hash has a linked list of key: value)
          */
         st.printTable();
+        
     }
 }
