@@ -1,3 +1,11 @@
+/**
+ *  Author          : Mohamed Shakra
+ *  Generation Date : 23-09-2020
+ *  BFS :  It's for finding if there is a path between two vertices 
+ *  input : Dir.java path.txt " " AL AZ
+ *  output: There is a path| no path
+ *  Time  : O(E + V)
+*/
 import java.io.IOException;
 
 public class Dir {

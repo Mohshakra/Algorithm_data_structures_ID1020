@@ -1,3 +1,11 @@
+/**
+ *  Author          : Mohamed Shakra
+ *  Generation Date : 29-09-2020
+ *  BFS :  It's for finding path between two nodes 
+ *  input : BFS.java path.txt " " AL AZ
+ *  output: AL ........ AZ | no path
+ *  Time  :O(E + V)
+*/
 public class BFS {
      /**
      * Binary Search Tree (BST), s 398

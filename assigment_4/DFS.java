@@ -1,3 +1,11 @@
+/**
+ *  Author          : Mohamed Shakra
+ *  Generation Date : 29-09-2020
+ *  BFS :  It's for finding path between two nodes 
+ *  input : DFS.java path.txt " " AL AZ
+ *  output: AL ........ AZ | no path
+ *  Time  :O(E + V)
+*/
 import java.io.IOException;
 
 public class DFS {
